@@ -1,0 +1,9 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: ecommerce-data-warehouse
+
+cors:
+  allowed-origins: http://localhost,http://localhost:80,http://localhost:3000
