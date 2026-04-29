@@ -1,0 +1,37 @@
+# Java编译产物
+target/
+*.class
+*.jar
+*.war
+
+# Node_modules
+frontend/node_modules/
+node_modules/
+
+# 日志文件
+*.log
+frontend-serve.err.log
+frontend-serve.out.log
+
+# Playwright 测试产物
+.playwright-cli/
+
+# IDE配置
+.idea/
+*.iml
+.vscode/
+
+# Docker 构建产物
+*.dockerignore
+
+# 临时文件
+*.tmp
+*.swp
+*~
+
+# 前端构建产物（如果想保留源码可以注释掉这行）
+# frontend/dist/
+
+# 毕业论文文件（不上传）
+基于Hive的电商数仓搭建与多维分析系统设计_毕业设计论文.docx
+*.docx
